@@ -26,7 +26,8 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  ptt
 } from "../assets";
 
 import {
