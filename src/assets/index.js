@@ -48,6 +48,7 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ptt from "./pttlogo.jpeg";
+import cymed from "./cymed.png";
 
 export {
   quotes,
