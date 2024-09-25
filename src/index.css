@@ -44,11 +44,11 @@
 
 .text-gradient {
   background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #E2613E 0.89%,   /* Light Reddish-Orange */
-    #D14611 42.04%,   /* Base Color */
-    #A73A0D 71.54%,   /* Dark Reddish-Orange */
-    #7B2A0A 100%      /* Very Dark Reddish-Brown */
+    64.18% 64.18% at 71.16% 35.69%, 
+    #B4701D 100%,         /* Base golden brown */
+/*     #9A5614 42.04%,     /* Darker brown */ */
+/*     #7C4613 71.54%,     /* Deep brown */ */
+/*     #6B3A10 100%        /* Very dark brown */ */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
