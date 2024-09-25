@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { parthmittal } from "../assets";
+import { namelogo } from "../assets";
 
 const Loading = ({isLoading}) => {
     return(
@@ -16,8 +16,8 @@ const Loading = ({isLoading}) => {
             }}
           >
               <img
-                src={parthmittal}
-                alt="Parth Mittal"
+                src={namelogo}
+                alt="Catalin Iovita"
                 className="w-[80px] h-[80px]"
               />
           </motion.div>
