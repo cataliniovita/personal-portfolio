@@ -55,14 +55,10 @@
 }
 
 .bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #ffe5d0 -43.27%,  /* Light orange */
-    #ffc299 -21.24%,  /* Peach */
-    #ff9f66 12.19%,   /* Soft orange */
-    #ff7c33 29.82%,   /* Brighter orange */
-    #ff5900 51.94%,   /* Deep orange */
-    #cc4700 90.29%    /* Darker orange */
+   background: radial-gradient(
+    circle,            /* You can change to 'ellipse' if you prefer */
+    #B4701D 0%,       /* Base golden brown color */
+    #B4701D 100%      /* Same color for a solid radial effect */
   );
 }
 
