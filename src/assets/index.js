@@ -47,6 +47,7 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import ptt from "./pttlogo.jpeg";
 
 export {
   quotes,
@@ -97,5 +98,6 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  ptt
 };
