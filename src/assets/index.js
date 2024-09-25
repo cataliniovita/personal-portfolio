@@ -100,5 +100,6 @@ export {
   manipal,
   icon,
   ethforall,
-  ptt
+  ptt,
+  cymed
 };
