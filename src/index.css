@@ -141,7 +141,7 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(251, 156, 42, 0) 0%, #fb9c2a 100%);
+  background: linear-gradient(180deg, rgba(251, 156, 42, 0) 0%, #B4701D 100%);
   filter: blur(123px);
 }
 
