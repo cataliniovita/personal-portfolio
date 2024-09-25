@@ -228,11 +228,6 @@ export const skills = [
     title: "Programming Languages",
     items: [
       {
-        id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
         id: "pl-2",
         icon: SiPython,
         name: "Python",
@@ -241,16 +236,6 @@ export const skills = [
         id: "pl-3",
         icon: SiCplusplus,
         name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
       },
       {
         id: "pl-6",
@@ -262,26 +247,6 @@ export const skills = [
         icon: SiC,
         name: "C",
       },
-      {
-        id: "pl-8",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "pl-9",
-        icon: DiCss3,
-        name: "CSS",
-      },
-      {
-        id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
     ],
   },
   {
@@ -293,39 +258,14 @@ export const skills = [
         name: "Django",
       },
       {
-        id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "f-3",
-        icon: SiReact,
-        name: "ReactJS",
-      },
-      {
-        id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
-      },
-      {
-        id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
         id: "f-7",
         icon: SiGraphql,
         name: "GraphQL",
       },
       {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        id: "f-3",
+        icon: SiReact,
+        name: "ReactJS",
       },
     ],
   },
@@ -348,34 +288,9 @@ export const skills = [
         name: "Postman",
       },
       {
-        id: "t-4",
-        icon: SiVisualstudiocode,
-        name: "VS Code",
-      },
-      {
-        id: "t-5",
-        icon: SiGit,
-        name: "Git",
-      },
-      {
         id: "t-6",
         icon: AiFillGithub,
         name: "GitHub",
-      },
-      {
-        id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
-      },
-      {
-        id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
-      },
-      {
-        id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
       },
     ],
   },
@@ -383,13 +298,13 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "Pentest-Tools.com",
+    logo: ptt,
+    link: "https://pentest-tools.com/",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Security Engineer",
+        duration: "Nov 2021 - Present",
         content: [
           {
             text: "Working in the DBaaS Control Plane team in the Database Unit.",
