@@ -339,10 +339,6 @@ export const experiences = [
             text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
             link: ""
           },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
         ],
       },
     ],
