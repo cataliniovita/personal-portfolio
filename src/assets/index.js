@@ -49,6 +49,7 @@ import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ptt from "./pttlogo.jpeg";
 import cymed from "./cymed.png";
+import namelogo from "./namelogo.png";
 
 export {
   quotes,
@@ -101,5 +102,6 @@ export {
   icon,
   ethforall,
   ptt,
-  cymed
+  cymed,
+  namelogo
 };
