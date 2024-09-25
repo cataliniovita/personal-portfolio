@@ -27,7 +27,8 @@ import {
   manipal,
   icon,
   ethforall,
-  ptt
+  ptt,
+  cymed
 } from "../assets";
 
 import {
@@ -304,7 +305,7 @@ export const experiences = [
     link: "https://pentest-tools.com/",
     positions: [
       {
-        title: "Security Engineer",
+        title: "Security Researcher",
         duration: "Nov 2021 - Present",
         content: [
           {
@@ -314,29 +315,25 @@ export const experiences = [
         ],
       },
       {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
+        title: "Software Developer",
+        duration: "Nov 2021 - Present",
         content: [
           {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            text: "Test",
             link: "",
           },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
-          }
         ],
       },
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
+    organisation: "Cymed",
+    logo: cymed,
+    link: "https://www.cymed.ro/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Security Engineer Intern",
+        duration: "Jul 2021 - Nov 2021",
         content: [
           {
             text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
@@ -350,57 +347,6 @@ export const experiences = [
       },
     ],
   },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  }
 ];
 
 export const openSourceContributions = [
