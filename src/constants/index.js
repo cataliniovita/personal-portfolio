@@ -134,7 +134,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
+    icon: upb,
     title: "University Politehnica of Bucharest",
     degree: "Master's Degree",
     duration: "Sep 2024 - Present",
@@ -142,7 +142,7 @@ export const educationList = [
   },
   {
     id: "education-2",
-    icon: nitk,
+    icon: upb,
     title: "University Politehnica of Bucharest",
     degree: "Bachelor of Computer Science",
     duration: "Sep 2019 - Jul 2023",
@@ -153,7 +153,7 @@ export const educationList = [
 export const achievements = [
   {
     id: "a-1",
-    icon: ethglobal,
+    icon: oswe,
     event: "Offensive Security Web Expert",
     position: "OSWE",
     content1: "Perform advanced web app source code auditing",
@@ -163,7 +163,7 @@ export const achievements = [
   },
   {
     id: "a-2",
-    icon: polkadot,
+    icon: ejpt,
     event: "Junior Penetration Tester",
     position: "eJPT",
     content1: "Perform host and network Penetration Testing",
