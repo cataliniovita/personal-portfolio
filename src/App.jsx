@@ -56,7 +56,7 @@ const App = () => {
             <Education />
           </div>
         </div>
-        <Achievements />
+        <Certificates />
         <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
           <div className={`${styles.boxWidth}`}>
             <Projects />
