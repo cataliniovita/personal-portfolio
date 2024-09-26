@@ -43,8 +43,11 @@
 }
 
 .text-gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  background: radial-gradient(
+    circle, 
+    #b3a7a6 0%,       /* Base color */
+    #b3a7a6 100%      /* Same color for solid effect */
+  );
 }
 
 .bg-blue-gradient {
