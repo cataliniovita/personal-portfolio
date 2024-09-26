@@ -48,6 +48,10 @@
     #b3a7a6 0%,       /* Base color */
     #b3a7a6 100%      /* Same color for solid effect */
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
