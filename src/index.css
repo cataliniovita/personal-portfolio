@@ -43,15 +43,8 @@
 }
 
 .text-gradient {
-   background: radial-gradient(
-    circle,            /* You can change to 'ellipse' if you prefer */
-    #B4701D 0%,       /* Base golden brown color */
-    #B4701D 100%      /* Same color for a solid radial effect */
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
 }
 
 .bg-blue-gradient {
