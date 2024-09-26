@@ -51,6 +51,8 @@ import ptt from "./pttlogo.jpeg";
 import cymed from "./cymed.png";
 import namelogo from "./namelogo.png";
 import upb from "./upb.png";
+import oswe from "./oswe.png";
+import ejpt from "./ejpt.png";
 
 export {
   quotes,
@@ -105,5 +107,7 @@ export {
   ptt,
   cymed,
   namelogo,
-  upb
+  upb,
+  oswe,
+  ejpt
 };
