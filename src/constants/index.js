@@ -138,7 +138,7 @@ export const educationList = [
     content1: "Major: Information Technology",
   },
   {
-    id: "education-1",
+    id: "education-2",
     icon: nitk,
     title: "University Politehnica of Bucharest",
     degree: "Master's Degree",
