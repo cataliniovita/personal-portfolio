@@ -50,6 +50,7 @@ import ethforall from "./ethforall.png";
 import ptt from "./pttlogo.jpeg";
 import cymed from "./cymed.png";
 import namelogo from "./namelogo.png";
+import upb from "./upb.png";
 
 export {
   quotes,
@@ -103,5 +104,6 @@ export {
   ethforall,
   ptt,
   cymed,
-  namelogo
+  namelogo,
+  upb
 };
