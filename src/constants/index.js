@@ -1,5 +1,6 @@
 import {
   nitk,
+  upb,
   cluboard,
   cash_flow,
   gdsc,
@@ -133,17 +134,17 @@ export const educationList = [
     id: "education-1",
     icon: nitk,
     title: "University Politehnica of Bucharest",
-    degree: "Bachelor of Computer Science",
-    duration: "Sep 2019 - Jul 2023",
-    content1: "Major: Information Technology",
+    degree: "Master's Degree",
+    duration: "Sep 2024 - Present",
+    content1: "Major: Financial Computing",
   },
   {
     id: "education-2",
     icon: nitk,
     title: "University Politehnica of Bucharest",
-    degree: "Master's Degree",
+    degree: "Bachelor of Computer Science",
     duration: "Sep 2019 - Jul 2023",
-    content1: "Major: Financial Computing",
+    content1: "Major: Information Technology",
   },
 ];
 
