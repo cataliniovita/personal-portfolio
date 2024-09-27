@@ -14,6 +14,7 @@ import {
   BlogPosts,
   Loading,
   Achievements,
+  Discoveries,
 } from "./components";
 
 const App = () => {
