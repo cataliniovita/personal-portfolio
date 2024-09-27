@@ -44,9 +44,13 @@
 
 .text-gradient {
   background: radial-gradient(
-    circle, 
-    #b3a7a6 0%,       /* Base color */
-    #b3a7a6 100%      /* Same color for solid effect */
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -55,10 +59,14 @@
 }
 
 .bg-blue-gradient {
-   background: radial-gradient(
-    circle,            /* You can change to 'ellipse' if you prefer */
-    #B4701D 0%,       /* Base golden brown color */
-    #B4701D 100%      /* Same color for a solid radial effect */
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
   );
 }
 
@@ -141,7 +149,7 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(251, 156, 42, 0) 0%, #B4701D 100%);
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   filter: blur(123px);
 }
 
