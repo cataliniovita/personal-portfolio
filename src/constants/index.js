@@ -179,17 +179,15 @@ export const achievements = [
 export const discoveries = [
   {
     id: "a-1",
-    icon: oswe,
     event: "CVE-2024-6886",
     position: "",
-    content1: "Perform advanced web app source code auditing",
-    content2: "Analyze code, write scripts, and exploit web vulnerabilities",
-    content3: "Implement complex chained attacks using multiple vulnerabilities",
+    content1: "A stored cross-site scripting (XSS) vulnerability in Gitea 1.22.0 and earlier may allow a remote attacker to execute arbitrary JavaScript in the web browser of a victim by injecting a malicious payload into the repository description",
+    content2: "",
+    content3: "",
     project: "https://www.credential.net/e81a6fe3-0e0f-444a-9149-a9a2c66ce99e#gs.f81qzd",
   },
   {
     id: "a-2",
-    icon: ejpt,
     event: "CVE-2024-39123",
     position: "",
     content1: "Perform host and network Penetration Testing",
