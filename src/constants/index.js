@@ -32,7 +32,9 @@ import {
   cymed,
   oswe,
   ejpt,
-  roundcube
+  roundcube,
+  initial,
+  cve1
 } from "../assets";
 
 import {
@@ -590,51 +592,39 @@ export const blogPosts = [
         id: "tag-2",
         name: "Email security"
       },
-      {
-        id: "tag-3",
-        name: "CVE-2021-44026"
-      },
     ],
   },
   {
     id: "post-2",
-    title: "Blog Post 02 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
+    title: "3 initial access tactics to simulate in your penetration tests",
+    link: "https://pentest-tools.com/blog/initial-access-tactics-pentests",
+    date: "Dec 11 2023",
+    image: initial,
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "Phishing"
       },
       {
         id: "tag-2",
-        name: "tag 03"
-      },
-      {
-        id: "tag-3",
-        name: "tag 03"
+        name: "Ransomware"
       },
     ],
   },
   {
     id: "post-3",
-    title: "Blog Post 03 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
+    title: "How to manually detect CVE-2022-21371 ",
+    link: "https://pentest-tools.com/blog/detect-cve-2022-21371-oracle-weblogic-servers",
+    date: "Aug 20 2022",
+    image: cve1,
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "RCE"
       },
       {
         id: "tag-2",
-        name: "tag 03"
-      },
-      {
-        id: "tag-3",
-        name: "tag 03"
+        name: "CVE-2022-21371"
       },
     ],
   },
