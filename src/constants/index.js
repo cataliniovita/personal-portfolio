@@ -297,15 +297,15 @@ export const experiences = [
         content: [
           {
             text: "Integrated the latest vulnerabilities exploits from over 50 recent CVEs into platform tools, improving the detection capabilities",
-            link: "https://pentest-tools.com/exploit-helpers/sniper",
+            link: "",
           },
           {
             text: "Developed a new tool that detects and exploits vulnerabilities in GraphQL applications, used by over 2000 clients",
-            link: "https://pentest-tools.com/website-vulnerability-scanning/api-scanner",
+            link: "",
           },
           {
             text: "Created a free playground featuring deliberately vulnerable applications to test how effective vulnerable applications are",
-            link: "https://pentest-ground.com/",
+            link: "",
           },
         ],
       },
