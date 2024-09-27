@@ -65,6 +65,7 @@ const App = () => {
             <ExtraCurricular />
           </div>
         </div>
+        <Discoveries />
         <Footer />
       </motion.section>
     </div>
