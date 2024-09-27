@@ -292,7 +292,7 @@ export const experiences = [
         duration: "Nov 2021 - Present",
         content: [
           {
-            text: "Test",
+            text: "Developer of automated vulnerability detection tools integrated in a cloud-based platform",
             link: "",
           },
         ],
@@ -309,7 +309,15 @@ export const experiences = [
         duration: "Jul 2021 - Nov 2021",
         content: [
           {
-            text: "Developed scripts to correlate Threat Intelligence indicators with internal ELK Stack data and created OSINT tools to identify client-related vulnerabilities, generating alerts for the Security Operations Center",
+            text: "Developed and deployed automated scripts that integrated Threat Intelligence indicators resulting in a 30% improvement in incident detection accuracy and a 25% reduction in false positives",
+            link: ""
+          },
+          {
+            text: "Improved threat detection across 70 client systems optimizing incident response efficiency by developing OSINT tools",
+            link: ""
+          },
+          {
+            text: "Analyzed and responded to over 150 security incidents by investigating alerts and identifying potential threats",
             link: ""
           },
         ],
