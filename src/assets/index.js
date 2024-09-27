@@ -53,6 +53,7 @@ import namelogo from "./namelogo.png";
 import upb from "./upb.png";
 import oswe from "./oswe.png";
 import ejpt from "./ejpt.png";
+import roundcube from "./roundcube.jpg";
 
 export {
   quotes,
@@ -109,5 +110,6 @@ export {
   namelogo,
   upb,
   oswe,
-  ejpt
+  ejpt,
+  roundcube
 };
