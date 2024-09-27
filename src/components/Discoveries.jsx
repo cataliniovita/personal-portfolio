@@ -93,12 +93,6 @@ const Discoveries = () => {
 const DiscoveriesCard = (props) => {
   return (
     <div className="flex-shrink-0 flex flex-col md:w-[400px] w-[320px] justify-around px-6 py-4 rounded-[20px] md:mr-10 mr-6 mr-0 my-5 transition-colors duration-300 transform border hover:border-transparent dark:border-gray-700 dark:hover:border-transparent">
-      <img
-        src={props.icon}
-        alt={props.event}
-        className="w-[45px] h-[45px] rounded-full mt-1 mb-1"
-      />
-
       <div className="flex flex-col justify-end mt-4 mb-1">
         <p className="font-poppins font-normal text-xl text-white leading-[24px] mb-2">
           {props.event}
