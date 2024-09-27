@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Content = ({ text, link }) => {
   return (
     <div>
-      <p className="font-poppins font-normal text-[14px] text-dimWhite my-4 leading-[32px]">
+      <p className="font-poppins font-normal text-[20px] text-dimWhite my-4 leading-[32px]">
         ● {text}{" "}
         {link ? (
           <a href={link} target="_blank">
@@ -44,7 +44,7 @@ const ExtraCurricularCard = (props) => {
           <p className="font-poppins font-normal text-[16px] text-white my-1 leading-[24px]">
             {props.title}
           </p>
-          <p className="font-poppins italic font-normal text-[14px] text-dimWhite my-1">
+          <p className="font-poppins italic font-normal text-[20px] text-dimWhite my-1">
             {props.duration}
           </p>
         </div>
