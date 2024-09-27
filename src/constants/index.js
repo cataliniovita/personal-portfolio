@@ -677,7 +677,10 @@ export const extraCurricular = [
     duration: "Jul 2022",
     content: [
       {
-        text: "Delivered presentations on security topics concerning privilege escalation and end-to-end attacks. Additionally, I designed multiple Capture The Flag (CTF) challenges focused on web security for a dedicated track, which attracted participation from numerous students.",
+        text: "Delivered presentations on security topics concerning privilege escalation and end-to-end attacks",
+      },
+       {
+        text: "Designed multiple Capture The Flag (CTF) challenges focused on web security for a dedicated track, which attracted participation from numerous students.",
         link: "https://security.cs.pub.ro/summer-school/wiki/",
       },
     ],
