@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BsLink45Deg } from "react-icons/bs";
-import { achievements } from "../constants";
+import { discoveries } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
 import { TiNews } from "react-icons/ti";
@@ -23,7 +23,7 @@ const Discoveries = () => {
   }, []);
 
   const handleNext = () => {
-    if (currentIndex < achievements.length - 1) {
+    if (currentIndex < discoveries.length - 1) {
       setCurrentIndex(currentIndex + 1);
     }
   };
@@ -35,13 +35,13 @@ const Discoveries = () => {
   };
 
   const isNextDisabled = isMediumScreen
-    ? currentIndex === Math.floor((achievements.length - 1) / 3)
-    : currentIndex === achievements.length - 1;
+    ? currentIndex === Math.floor((discoveries.length - 1) / 3)
+    : currentIndex === discoveries.length - 1;
 
   return (
     <section
       className="bg-primary overflow-hidden text-white mt-5 md:mt-10 relative"
-      id="achievements"
+      id="discoveries"
     >
       <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
@@ -58,12 +58,12 @@ const Discoveries = () => {
               className="flex transition-transform duration-500 ease-in-out"
               style={{
                 transform: `translateX(-${
-                  (currentIndex / achievements.length) * 100
+                  (currentIndex / discoveries.length) * 100
                 }%)`,
-                width: `${achievements.length * 100}%`,
+                width: `${discoveries.length * 100}%`,
               }}
             >
-              {achievements.map((achievement, index) => (
+              {discoveries.map((achievement, index) => (
                 <DiscoveriesCard key={index} {...achievement} />
               ))}
             </div>
