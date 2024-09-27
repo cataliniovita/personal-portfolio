@@ -108,17 +108,17 @@ const AchievementCard = (props) => {
         </p>
         {props.content1 && (
           <p className="font-poppins font-normal text-dimWhite text-sm mb-1">
-            🚀 {props.content1}
+            {props.content1}
           </p>
         )}
         {props.content2 && (
           <p className="font-poppins font-normal text-dimWhite text-sm mb-1">
-            ⚡ {props.content2}
+            {props.content2}
           </p>
         )}
         {props.content3 && (
           <p className="font-poppins font-normal text-dimWhite text-sm mb-4">
-            🔥 {props.content3}
+            {props.content3}
           </p>
         )}
       </div>
