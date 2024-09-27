@@ -189,8 +189,8 @@ export const discoveries = [
   {
     id: "a-2",
     event: "CVE-2024-39123",
-    position: "A stored cross-site scripting (XSS) vulnerability in Calibre-Web 0.6.21 and earlier may allow a remote attacker to execute arbitrary JavaScript in the web browser of a victim by injecting a malicious payload into the book description field.",
-    content1: "Perform host and network Penetration Testing",
+    position: "",
+    content1: "A stored cross-site scripting (XSS) vulnerability in <b>Calibre-Web</b> 0.6.21 and earlier may allow a remote attacker to execute arbitrary JavaScript in the web browser of a victim by injecting a malicious payload into the book description field.",
     content2: "",
     content3: "",
     project: "https://nvd.nist.gov/vuln/detail/CVE-2024-39123",
