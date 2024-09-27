@@ -63,8 +63,8 @@ const App = () => {
             <Projects />
             <BlogPosts enabled={true} />
             <Discoveries />
-            <OpenSource />
-            <ExtraCurricular enabled={false} />
+{/*             <OpenSource /> */}
+            <ExtraCurricular />
           </div>
         </div>
         <Footer />
