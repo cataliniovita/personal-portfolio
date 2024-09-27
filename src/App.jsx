@@ -62,11 +62,11 @@ const App = () => {
           <div className={`${styles.boxWidth}`}>
             <Projects />
             <BlogPosts enabled={true} />
+            <Discoveries />
             <OpenSource />
-            <ExtraCurricular />
+            <ExtraCurricular enabled={false} />
           </div>
         </div>
-        <Discoveries />
         <Footer />
       </motion.section>
     </div>
