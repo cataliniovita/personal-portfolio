@@ -39,13 +39,6 @@ const Footer = () => (
           <a href={resumeLink} target="_blank">
             <Button styles="mt-10 mr-3" text="Resume" icon="AiFillGithub" />
           </a>
-          <a href={repoLink} target="_blank">
-            <Button
-              styles="mt-10 inline-flex items-center justify-center"
-              text="Star"
-              icon={AiFillGithub}
-            />
-          </a>
         </div>
       </div>
 
@@ -59,7 +52,7 @@ const Footer = () => (
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
       <p>
-        Made with 💙 by Parth Mittal & the Open Source Community
+        This site uses the theme from Parth Mittal
       </p>
     </div>
   </footer>
