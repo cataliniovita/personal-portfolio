@@ -31,7 +31,8 @@ import {
   ptt,
   cymed,
   oswe,
-  ejpt
+  ejpt,
+  roundcube
 } from "../assets";
 
 import {
@@ -576,22 +577,22 @@ export const projects = [
 export const blogPosts = [
   {
     id: "post-1",
-    title: "Blog Post 01 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
+    title: "Roundcube: exfiltrating emails with CVE-2021-44026",
+    link: "https://pentest-tools.com/blog/roundcube-exfiltrating-emails-with-cve-2021-44026",
+    date: "Dec 22 2023", // Can be edited to any string format
+    image: roundcube,
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "SQLi"
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "Email security"
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "CVE-2021-44026"
       },
     ],
   },
