@@ -279,10 +279,14 @@ export const experiences = [
     positions: [
       {
         title: "Security Researcher",
-        duration: "Nov 2021 - Present",
+        duration: "Oct 2023 - Present",
         content: [
           {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
+            text: "Review open-source applications to discover zero-day vulnerabilities and replicate proof-of-concept exploits",
+            link: "",
+          },
+          {
+            text: "Write blog articles to share my findings, contributing to the information security community and supporting collective knowledge in the field",
             link: "",
           },
         ],
@@ -292,8 +296,16 @@ export const experiences = [
         duration: "Nov 2021 - Present",
         content: [
           {
-            text: "Developer of automated vulnerability detection tools integrated in a cloud-based platform",
-            link: "",
+            text: "Integrated the latest vulnerabilities exploits from over 50 recent CVEs into platform tools, improving the detection capabilities",
+            link: "https://pentest-tools.com/exploit-helpers/sniper",
+          },
+          {
+            text: "Developed a new tool that detects and exploits vulnerabilities in GraphQL applications, used by over 2000 clients",
+            link: "https://pentest-tools.com/website-vulnerability-scanning/api-scanner",
+          },
+          {
+            text: "Created a free playground featuring deliberately vulnerable applications to test how effective vulnerable applications are",
+            link: "https://pentest-ground.com/",
           },
         ],
       },
