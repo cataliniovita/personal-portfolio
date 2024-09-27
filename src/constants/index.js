@@ -309,7 +309,7 @@ export const experiences = [
         duration: "Jul 2021 - Nov 2021",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            text: "Developed scripts to correlate Threat Intelligence indicators with internal ELK Stack data and created OSINT tools to identify client-related vulnerabilities, generating alerts for the Security Operations Center",
             link: ""
           },
         ],
