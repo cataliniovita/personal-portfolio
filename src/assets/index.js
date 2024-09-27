@@ -54,6 +54,8 @@ import upb from "./upb.png";
 import oswe from "./oswe.png";
 import ejpt from "./ejpt.png";
 import roundcube from "./roundcube.jpg";
+import cve1 from "./cve-2021-21371.jpg";
+import initial from "./initial.jpg";
 
 export {
   quotes,
@@ -111,5 +113,7 @@ export {
   upb,
   oswe,
   ejpt,
-  roundcube
+  roundcube,
+  initial,
+  cve1
 };
