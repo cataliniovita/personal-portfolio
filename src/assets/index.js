@@ -56,6 +56,7 @@ import ejpt from "./ejpt.png";
 import roundcube from "./roundcube.jpg";
 import cve1 from "./cve-2022-21371.jpg";
 import initial from "./initial.jpg";
+import sss from "./sss_logo.png";
 
 export {
   quotes,
@@ -115,5 +116,6 @@ export {
   ejpt,
   roundcube,
   initial,
-  cve1
+  cve1,
+  sss
 };
