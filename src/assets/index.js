@@ -58,7 +58,7 @@ import cve1 from "./cve-2022-21371.jpg";
 import initial from "./initial.jpg";
 import sss from "./sss_logo.png";
 import pentestground from "./pentest-ground.jpeg";
-import graphqlscanner from "./grahpqlscanner.png"
+import graphqlscanner from "./graphqlscanner.png"
 
 export {
   quotes,
