@@ -33,15 +33,6 @@ const Footer = () => (
             </a>
           ))}
         </div>
-
-        <div className="grid grid-cols-2">
-          {/* styles is a prop */}
-          <a href={resumeLink} target="_blank">
-            <Button styles="mt-10 mr-3" text="Resume" icon="AiFillGithub" />
-          </a>
-        </div>
-      </div>
-
       <div className="md:ml-auto mt-10 md:mt-0">
         <img
           src={profilePic}
