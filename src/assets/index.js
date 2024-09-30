@@ -57,6 +57,8 @@ import roundcube from "./roundcube.jpg";
 import cve1 from "./cve-2022-21371.jpg";
 import initial from "./initial.jpg";
 import sss from "./sss_logo.png";
+import pentestground from "./pentest-ground.jpeg";
+import graphqlscanner from "./grahpql-scanner.png"
 
 export {
   quotes,
@@ -117,5 +119,7 @@ export {
   roundcube,
   initial,
   cve1,
-  sss
+  sss,
+  pentestground,
+  graphqlscanner
 };
