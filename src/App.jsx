@@ -58,11 +58,11 @@ const App = () => {
           </div>
         </div>
         <Achievements />
+        <Discoveries />
         <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
           <div className={`${styles.boxWidth}`}>
             <Projects />
             <BlogPosts enabled={true} />
-            <Discoveries />
 {/*             <OpenSource /> */}
             <ExtraCurricular />
           </div>
