@@ -45,8 +45,8 @@
 .text-gradient {
   background: radial-gradient(
     circle, 
-    #8F8584 0%,       /* Base color */
-    #8F8584 100%      /* Same color for solid effect */
+    #FFFFFF 0%,       /* Base color */
+    #FFFFFF 100%      /* Same color for solid effect */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
