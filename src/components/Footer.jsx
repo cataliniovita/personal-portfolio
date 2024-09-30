@@ -33,10 +33,14 @@ const Footer = () => (
             </a>
           ))}
         </div>
+
+       <div className="grid grid-cols-2">
+        </div>
+      </div>
       <div className="md:ml-auto mt-10 md:mt-0">
         <img
           src={profilePic}
-          alt="Parth Mittal"
+          alt="Catalin Iovita"
           className="w-[200px] h-[200px] border-2 border-teal-200 relative z-[5] rounded-full"
         />
       </div>
