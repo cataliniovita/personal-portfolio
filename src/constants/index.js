@@ -35,7 +35,9 @@ import {
   roundcube,
   initial,
   cve1,
-  sss
+  sss,
+  pentestground,
+  graphqlscanner
 } from "../assets";
 
 import {
@@ -81,7 +83,8 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiNginx
 } from "react-icons/si";
 
 import {
@@ -544,7 +547,7 @@ export const projects = [
     title: "GraphQL Scanner",
     github: "",
     link: "https://pentest-tools.com/website-vulnerability-scanning/api-scanner",
-    image: comicify_ai,
+    image: graphqlscanner,
     content:
       "Tool that detects and exploits vulnerabilities in GraphQL applications",
     stack: [
@@ -554,7 +557,7 @@ export const projects = [
         name: "Python"
       },
       {
-        id: "icon-1",
+        id: "icon-2",
         icon: SiDjango,
         name: "Django"
       },
@@ -577,42 +580,32 @@ export const projects = [
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
+    title: "Pentest-Ground",
+    github: "",
+    link: "https://pentest-ground.com/",
+    image: pentestground,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "Free playground featuring deliberately vulnerable applications to test how effective vulnerable applications are",
     stack: [
-      {
+       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiDjango,
+        name: "Django"
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiNginx,
+        name: "Nginx"
       },
       {
         id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        icon: SiJavascript,
+        name: "Javascript"
       },
     ],
   },
