@@ -541,37 +541,37 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
+    title: "GraphQL Scanner",
+    github: "",
+    link: "https://pentest-tools.com/website-vulnerability-scanning/api-scanner",
     image: comicify_ai,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Tool that detects and exploits vulnerabilities in GraphQL applications",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiPython,
+        name: "Python"
       },
       {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        id: "icon-1",
+        icon: SiDjango,
+        name: "Django"
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiGraphql,
+        name: "GraphQL"
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        icon: SiMysql,
+        name: "MySQL"
       },
       {
         id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiJavascript,
+        name: "Javascript"
       },
     ],
   },
