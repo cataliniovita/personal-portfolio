@@ -307,7 +307,7 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Created a free playground featuring deliberately vulnerable applications to test how effective vulnerable applications are",
+            text: "Created a free playground featuring deliberately vulnerable applications to test how effective vulnerability scanning tools are",
             link: "",
           },
         ],
@@ -585,7 +585,7 @@ export const projects = [
     link: "https://pentest-ground.com/",
     image: pentestground,
     content:
-      "Free playground featuring deliberately vulnerable applications to test how effective vulnerable applications are",
+      "Free playground featuring deliberately vulnerable applications to test how effective vulnerability scanning tools are",
     stack: [
        {
         id: "icon-1",
