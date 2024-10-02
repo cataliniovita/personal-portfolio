@@ -185,7 +185,7 @@ export const discoveries = [
   {
     id: "a-1",
     event: "CVE-2024-6886",
-    position: "",
+    position: "Gitea",
     content1: "A stored cross-site scripting (XSS) vulnerability in Gitea 1.22.0 and earlier may allow a remote attacker to execute arbitrary JavaScript in the web browser of a victim by injecting a malicious payload into the repository description.",
     content2: "",
     content3: "",
@@ -194,7 +194,7 @@ export const discoveries = [
   {
     id: "a-2",
     event: "CVE-2024-39123",
-    position: "",
+    position: "Calibre-Web",
     content1: "A stored cross-site scripting (XSS) vulnerability in Calibre-Web 0.6.21 and earlier may allow a remote attacker to execute arbitrary JavaScript in the web browser of a victim by injecting a malicious payload into the book description field.",
     content2: "",
     content3: "",
