@@ -37,7 +37,8 @@ import {
   cve1,
   sss,
   pentestground,
-  graphqlscanner
+  graphqlscanner,
+  synack
 } from "../assets";
 
 import {
@@ -275,6 +276,27 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    organisation: "Synack",
+    logo: synack,
+    link: "https://www.synack.com/",
+    positions: [
+      {
+        title: "Security Researcher",
+        duration: "May 2024 - Present",
+        content: [
+          {
+            text: "Part of a private network of highly curated and vetted hackers for some of the biggest brands in the world",
+            link: ""
+          },
+          {
+            text: "Hunting for vulnerabilities in web applications based on the private Bug Bounty program formula",
+            link: ""
+          },
+        ],
+      },
+    ],
+  },
   {
     organisation: "Pentest-Tools.com",
     logo: ptt,
