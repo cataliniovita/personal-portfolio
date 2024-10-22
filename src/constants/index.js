@@ -204,7 +204,7 @@ export const discoveries = [
     id: "a-3",
     event: "CVE-2024-40746",
     position: "HikaShop Joomla",
-    content1: "A stored cross-site scripting (XSS) vulnerability in HikaShop Joomla Component < 5.1.1 allows remote attackers to execute arbitrary JavaScript in the web browser of a user, by including a malicious payload in the `description` parameter of any product. The `description` parameter is not sanitised in the backend.",
+    content1: "A stored cross-site scripting (XSS) vulnerability in HikaShop Joomla Component < 5.1.1 allows remote attackers to execute arbitrary JavaScript in the web browser of a user, by including a malicious payload in the `description` parameter of any product.",
     content2: "",
     content3: "",
     project: "https://nvd.nist.gov/vuln/detail/CVE-2024-40746",
