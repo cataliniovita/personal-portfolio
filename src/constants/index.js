@@ -144,17 +144,15 @@ export const educationList = [
     id: "education-1",
     icon: upb,
     title: "University Politehnica of Bucharest",
-    degree: "Master's Degree",
+    degree: "Master's Degree in Computer Science",
     duration: "Sep 2024 - Present",
-    content1: "Major: Financial Computing",
   },
   {
     id: "education-2",
     icon: upb,
     title: "University Politehnica of Bucharest",
-    degree: "Bachelor of Computer Science",
+    degree: "Bachelor's Degree in Computer Science",
     duration: "Sep 2019 - Jul 2023",
-    content1: "Major: Information Technology",
   },
 ];
 
