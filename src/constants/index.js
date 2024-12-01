@@ -694,6 +694,60 @@ export const blogPosts = [
   },
 ];
 
+export const conferences = [
+  {
+    id: "post-1",
+    title: "Roundcube: exfiltrating emails with CVE-2021-44026",
+    link: "https://pentest-tools.com/blog/roundcube-exfiltrating-emails-with-cve-2021-44026",
+    date: "Dec 22 2023", // Can be edited to any string format
+    image: roundcube,
+    tags: [
+      {
+        id: "tag-1",
+        name: "SQLi"
+      },
+      {
+        id: "tag-2",
+        name: "Email security"
+      },
+    ],
+  },
+  {
+    id: "post-2",
+    title: "3 initial access tactics to simulate in your penetration tests",
+    link: "https://pentest-tools.com/blog/initial-access-tactics-pentests",
+    date: "Dec 11 2023",
+    image: initial,
+    tags: [
+      {
+        id: "tag-1",
+        name: "Phishing"
+      },
+      {
+        id: "tag-2",
+        name: "Ransomware"
+      },
+    ],
+  },
+  {
+    id: "post-3",
+    title: "How to manually detect CVE-2022-21371 ",
+    link: "https://pentest-tools.com/blog/detect-cve-2022-21371-oracle-weblogic-servers",
+    date: "Aug 20 2022",
+    image: cve1,
+    tags: [
+      {
+        id: "tag-1",
+        name: "RCE"
+      },
+      {
+        id: "tag-2",
+        name: "CVE-2022-21371"
+      },
+    ],
+  },
+];
+
 export const stats = [
   {
     id: "stats-1",
