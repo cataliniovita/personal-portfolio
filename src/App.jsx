@@ -12,6 +12,7 @@ import {
   OpenSource,
   Projects,
   BlogPosts,
+  Conferences,
   Loading,
   Achievements,
   Discoveries,
@@ -63,6 +64,7 @@ const App = () => {
           <div className={`${styles.boxWidth}`}>
             <Projects />
             <BlogPosts enabled={true} />
+            <Conferences enabled={true} />
 {/*             <OpenSource /> */}
             <ExtraCurricular />
           </div>
