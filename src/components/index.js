@@ -14,6 +14,7 @@ import Loading from "./Loading";
 import BlogPosts from "./BlogPosts";
 import Achievements from "./Achievements";
 import Discoveries from "./Discoveries";
+import Conferenecs from "./Conferences";
 
 
 export {
@@ -31,4 +32,5 @@ export {
     BlogPosts,
     Achievements,
     Discoveries,
+    Conferences,
 };
