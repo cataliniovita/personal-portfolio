@@ -14,7 +14,7 @@ import Loading from "./Loading";
 import BlogPosts from "./BlogPosts";
 import Achievements from "./Achievements";
 import Discoveries from "./Discoveries";
-import Conferenecs from "./Conferences";
+import Conferences from "./Conferences";
 
 
 export {
