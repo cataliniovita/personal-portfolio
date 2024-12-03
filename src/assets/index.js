@@ -60,6 +60,7 @@ import sss from "./sss_logo.png";
 import pentestground from "./pentest-ground.jpeg";
 import graphqlscanner from "./graphqlscanner.png";
 import synack from "./synack.jpeg";
+import linkin from "./linkin-browser.png";
 
 export {
   quotes,
@@ -123,5 +124,6 @@ export {
   sss,
   pentestground,
   graphqlscanner,
-  synack
+  synack,
+  linkin
 };
