@@ -46,7 +46,7 @@ const Conference = (props) => {
 
         <div className="mt-8">
           <a href={props.link} target="_blank">
-            <Button text="Read more &rarr;" />
+            <Button text="Slides &rarr;" />
           </a>
         </div>
       </div>
