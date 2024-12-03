@@ -699,16 +699,20 @@ export const conferences = [
   {
     id: "post-1",
     title: "Linkin' to your browser",
-    link: "https://pentest-tools.com/blog/roundcube-exfiltrating-emails-with-cve-2021-44026",
+    link: "https://docs.google.com/presentation/d/1KJPXPYn8I2VNRJWlAuQvhn7N-BMGKzwYruxKtIx940w",
     date: "Nov 29 2024", // Can be edited to any string format
     image: linkin,
     tags: [
       {
         id: "tag-1",
-        name: "HTML library"
+        name: "DefCamp"
       },
       {
         id: "tag-2",
+        name: "HTML library"
+      },
+      {
+        id: "tag-3",
         name: "Fuzzing"
       },
     ],
