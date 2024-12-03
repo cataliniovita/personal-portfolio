@@ -705,15 +705,11 @@ export const conferences = [
     tags: [
       {
         id: "tag-1",
-        name: "DefCamp"
+        name: "DefCamp24"
       },
       {
         id: "tag-2",
         name: "HTML library"
-      },
-      {
-        id: "tag-3",
-        name: "Fuzzing"
       },
     ],
   },
