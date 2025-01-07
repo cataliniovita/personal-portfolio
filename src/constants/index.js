@@ -183,6 +183,15 @@ export const achievements = [
 export const discoveries = [
   {
     id: "a-1",
+    event: "CVE-2024-40747",
+    position: "Joomla!",
+    content1: "Various module chromes didn't properly process inputs, leading to XSS vectors in Joomla! CMS versions 4.0.0-4.4.9, 5.0.0-5.2.2. This allows a remote attacker to execute arbitrary JavaScript in the web browser of a victim.",
+    content2: "",
+    content3: "",
+    project: "https://developer.joomla.org/security-centre/954-20250101-core-xss-vectors-in-module-chromes.html",
+  },
+  {
+    id: "a-2",
     event: "CVE-2024-6886",
     position: "Gitea",
     content1: "A stored cross-site scripting (XSS) vulnerability in Gitea 1.22.0 and earlier may allow a remote attacker to execute arbitrary JavaScript in the web browser of a victim by injecting a malicious payload into the repository description.",
@@ -191,7 +200,7 @@ export const discoveries = [
     project: "https://nvd.nist.gov/vuln/detail/CVE-2024-6886",
   },
   {
-    id: "a-2",
+    id: "a-3",
     event: "CVE-2024-39123",
     position: "Calibre-Web",
     content1: "A stored cross-site scripting (XSS) vulnerability in Calibre-Web 0.6.21 and earlier may allow a remote attacker to execute arbitrary JavaScript in the web browser of a victim by injecting a malicious payload into the book description field.",
@@ -200,7 +209,7 @@ export const discoveries = [
     project: "https://nvd.nist.gov/vuln/detail/CVE-2024-39123",
   },
   {
-    id: "a-3",
+    id: "a-4",
     event: "CVE-2024-40746",
     position: "HikaShop Joomla",
     content1: "A stored cross-site scripting (XSS) vulnerability in HikaShop Joomla Component < 5.1.1 allows remote attackers to execute arbitrary JavaScript in the web browser of a user, by including a malicious payload in the `description` parameter of any product.",
