@@ -39,7 +39,8 @@ import {
   pentestground,
   graphqlscanner,
   synack,
-  linkin
+  linkin,
+  crtp
 } from "../assets";
 
 import {
@@ -170,6 +171,16 @@ export const achievements = [
   },
   {
     id: "a-2",
+    icon: crtp,
+    event: "Certified Red Team Professional",
+    position: "CRTP",
+    content1: "Perform Active Directory enumeration and Local Privilege Escalation",
+    content2: "Domain Privilege Escalation using Kerberoast, Kerberos delegation and Abusing protected groups",
+    content3: "Domain Persistence and Dominance using Golden and Silver ticket, Skeleton key, DSRM abuse",
+    project: "https://www.credential.net/70fcb078-fad6-4aab-b18d-986d09804ab6#acc.lZGar1kW",
+  },
+  {
+    id: "a-3",
     icon: ejpt,
     event: "Junior Penetration Tester",
     position: "eJPT",
