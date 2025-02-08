@@ -61,6 +61,7 @@ import pentestground from "./pentest-ground.jpeg";
 import graphqlscanner from "./graphqlscanner.png";
 import synack from "./synack.jpeg";
 import linkin from "./linkin-browser.png";
+import crtp from "./crtp.png";
 
 export {
   quotes,
@@ -125,5 +126,6 @@ export {
   pentestground,
   graphqlscanner,
   synack,
-  linkin
+  linkin,
+  crtp
 };
