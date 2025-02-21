@@ -228,6 +228,15 @@ export const discoveries = [
     content3: "",
     project: "https://nvd.nist.gov/vuln/detail/CVE-2024-40746",
   },
+    {
+    id: "a-4",
+    event: "CVE-2024-57716",
+    position: "AutoQueryable",
+    content1: "An issue in trenoncourt AutoQueryable v.1.7.0 allows a remote attacker to obtain sensitive information via the Unselectable function.",
+    content2: "",
+    content3: "",
+    project: "https://nvd.nist.gov/vuln/detail/CVE-2024-57716",
+  },
 ];
 
 export const skills = [
